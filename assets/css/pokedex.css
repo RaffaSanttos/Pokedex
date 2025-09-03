@@ -93,6 +93,25 @@
   margin: 0;
 }
 
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button {
+  color: white;
+  padding: .25rem .5rem;
+  margin: .25rem 0;
+  font-size: .625rem;
+  background-color: #6e44b3;
+  border: none;
+  border-radius: 1rem;
+}
+
 .pokemon .type {
   font-size: 0.795rem;
   border-radius: 1rem ;
