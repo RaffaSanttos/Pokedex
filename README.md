@@ -2,7 +2,7 @@
 
 Este é um projeto de estudo e prática de **JavaScript** e **Node.js**, consumindo a [PokeAPI](https://pokeapi.co/) para exibir informações dos Pokémon de forma simples, interativa e **responsiva**.  
 
-O desenvolvimento foi feito seguindo a abordagem **Mobile First**, garantindo uma boa experiência em telas pequenas e depois expandindo para dispositivos maiores.  
+O desenvolvimento foi feito seguindo a abordagem **Mobile First**, garantindo uma boa experiência em telas pequenas e depois expandindo para dispositivos maiores.
 
 ---
 
