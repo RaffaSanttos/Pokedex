@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #dddddd;
+  background-color: hsl(0, 0%, 87%);
 }
 
 .content {
@@ -12,6 +12,17 @@ body {
   height: 100vh;
   width: auto;
 }
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin: 3rem 0 .7rem 1.6rem;
+  padding: 0;
+}
+
 
 @media screen and (min-width: 992px){
   .content {
