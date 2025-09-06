@@ -8,7 +8,7 @@ let offset = 0;
 function loadPokemonItens(offset, limit) { 
     pokeApi.getPokemons(offset, limit).then((pokemons = []) => {
         pokemonList.innerHTML += pokemons.map((pokemon => `
-            <li class="pokemon ${pokemon.type}">
+            <li class="pokemonCard pokemon ${pokemon.type}" data-id="${pokemon.number}">
                     <span class="number">#${pokemon.number}</span>
                     <span class="name">${pokemon.name}</span>
                     <div class="detail">
@@ -21,6 +21,14 @@ function loadPokemonItens(offset, limit) {
             `)).join('')
     })
 }
+
+pokemonList.addEventListener('click', (event) => {
+    const card = event.target.closest('.pokemonCard')
+    if (card) {
+        const id = card.dataset.id
+        window.location.href = `pokemonSelect.html?id=${id}`
+    }
+})
 
 loadPokemonItens(offset, limit)
 

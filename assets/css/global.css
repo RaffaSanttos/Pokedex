@@ -3,6 +3,14 @@
   box-sizing: border-box;
 }
 
+.pokemon, #loadMoreButton {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.pokemon:hover, #loadMoreButton:hover {
+  transform: scale(1.05);
+}
+
 body {
   background-color: hsl(0, 0%, 87%);
 }
